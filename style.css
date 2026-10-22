@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+ 
+body {
+  background-image: url("Background Image.png");
+  background-size: cover;
+}
+
+.container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.head {
+  margin-top: 100px;
+  max-width: 900px;
+  width: 100%;
+  margin-bottom: 8px;
+  color: #8980ff;
+  font-size: 50px;
+  font-family: 'Fredoka', sans-serif;
+  font-weight: bold;
+}
+
+.subtitle{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: #777cbe;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.description {
+  margin-top: 5px;
+  color: #777bb2;
+  font-size: 14px;
+}
+
+.input-card {
+  width: 60vw;
+  background-color: #fffaf4;
+  max-width: 500px;
+  border-radius: 20px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border: 1.5px solid #dedcff;
+  padding-left: 25px;
+  padding-right: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 10px;
+  transition: transform 0.5s ease,
+              box-shadow 0.2s ease;
+}
+
+.input-card:hover {
+  box-shadow: 0 20px 55px rgba(90, 79, 186, 0.09);
+  transform: scale(1.01);
+}
+
+.Enter {
+  margin-top: 0;
+  font-size: 22px;
+  text-align: left;
+  margin-left: 22px;
+  font-family: 'Fredoka', sans-serif;
+  color: #7167ed;
+}
+
+.input {
+  width: 90%;
+  height: 46px;
+  border: 1px solid #aea9f5;
+  border-radius: 8px;
+  margin-top: 0px;
+  font-size: 15px;
+  padding-left: 8px;
+  background-color: rgba(248, 247, 255, 0.8);
+}
+
+.button {
+  width: 90%;
+  height: 45px;
+  border-width: 0px;
+  border-radius: 8px;
+  background-color: #8980ff;
+  color: white;
+  margin-top: 27px;
+  transition: box-shadow 0.2s ease,
+              filter 0.2s ease;
+  cursor: pointer;
+}
+
+.button:hover {
+  box-shadow: 0 5px 5px rgba(117, 103, 235, 0.5);
+  filter: brightness(1.04);
+
+}
+
+.btn-input {
+  align-items: center;
+}
+
+.game-result {
+  font-family: "Roboto";
+  font-size: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 20px;
+  width: 91%;
+  color: #7277b6;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  background-color: rgba(239, 237, 255, 0.78);
+  border-radius: 8px;
+}
