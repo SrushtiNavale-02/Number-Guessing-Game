@@ -36,7 +36,7 @@ Building this project helped me practise:
 
 ## 🌐 Live Demo
 
-**Play the game:** Add your deployed GitHub Pages URL here after hosting the project.
+**Play the game:** https://srushtinavale-02.github.io/Number-Guessing-Game/
 
 ## 👩‍💻 Author
 
